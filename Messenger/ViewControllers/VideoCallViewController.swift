@@ -49,12 +49,6 @@ class VideoCallViewController: UIViewController {
     }
     
     private func initializeFirebase() {
-//        var username = ""
-//        if TARGET_OS_SIMULATOR != 0 {
-//            username = "amish"
-//        } else {
-//            username = "sudayn"
-//        }
         let ref = Database.database().reference(withPath: "users").child(username).child("events").child("active_call")
         ref.removeValue()
         
@@ -92,8 +86,8 @@ class VideoCallViewController: UIViewController {
     }
     
     private func startCall() {
-        let users = Database.database().reference(withPath: "users")
-        print(users)
+//        let users = Database.database().reference(withPath: "users")
+//        print(users)
 //        let ref = users.child(chan.peer).child("events").child("active_call")
 //        ref.removeValue(completionBlock: {(err, r) in
 //            let message = SignalMessage(type: "", sdp: "", candidate: nil, command: "call", initiator: false, sender: self.chan.caller, roomId: self.roomId)
@@ -127,15 +121,6 @@ class VideoCallViewController: UIViewController {
     }
     
     private func initializeCommunication() {
-//        var caller = ""
-//        var peer = ""
-//        if TARGET_OS_SIMULATOR != 0 {
-//            caller = "amish"
-//            peer = "sudayn"
-//        } else {
-//            caller = "sudayn"
-//            peer = "amish"
-//        }
         chan = ChatChannel(caller: username, peer: "")
         comm = Communication(chatChannel: chan)
         comm.delegate = self
@@ -248,12 +233,6 @@ extension VideoCallViewController: WebRTCClientDelegate {
     }
     
     func didReceiveData(data: Data) {
-//        if let decodedData = Data(base64Encoded: data) {
-//            let image = UIImage(data: decodedData)
-//            DispatchQueue.main.async {
-//                self.imgView.image = image
-//            }
-//        }
 
     }
     

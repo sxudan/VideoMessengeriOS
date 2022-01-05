@@ -161,19 +161,6 @@ class Communication {
 
     }
     
-//    func fetchPeer(roomId: String, sender: String) {
-//        self.roomsRef.child(roomId).child("peers").observeSingleEvent(of: .value, with: {snapshot in
-//
-//            while let rest = snapshot.children.nextObject() as? DataSnapshot {
-//                print(" I am in while loop")
-//                if self.chatChannel.caller != rest.key, rest.key != "" {
-//                    self.chatChannel.peer = sender
-//                    self.delegate?.onPeerJoined(userId: sender)
-//                    break
-//                }
-//            }
-//        })
-//    }
     
     public func sendConfiguration(message: SignalMessage) {
         print(message)
@@ -181,19 +168,5 @@ class Communication {
         let r = self.roomsRef.child(message.roomId).child("peers").child(chatChannel.peer)
         let idRef = r.childByAutoId()
         idRef.setValue(message.toJson)
-//        self.roomsRef.child(message.roomId).child("peers").observeSingleEvent(of: .value, with: {snapshot in
-//
-//            while let rest = snapshot.children.nextObject() as? DataSnapshot {
-//                print(" I am in while loop")
-//                if self.chatChannel.caller != rest.key, rest.key != "" {
-//                    let r = self.roomsRef.child(message.roomId).child("peers").child(rest.key)
-//                    let idRef = r.childByAutoId()
-//                    idRef.setValue(message.toJson)
-//
-//                    break
-//                }
-//            }
-//        })
-
     }
 }

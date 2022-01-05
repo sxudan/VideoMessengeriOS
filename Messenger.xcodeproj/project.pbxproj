@@ -17,7 +17,6 @@
 		CEE23DBE2785680C00810A8B /* Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23DBD2785680B00810A8B /* Communication.swift */; };
 		CEE23DC02785683800810A8B /* CameraFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23DBF2785683800810A8B /* CameraFilter.swift */; };
 		CEE23DC22785686600810A8B /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23DC12785686600810A8B /* CameraSession.swift */; };
-		CEE23DC42785694100810A8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE23DC32785694100810A8B /* GoogleService-Info.plist */; };
 		CEE23DC627856F9700810A8B /* IncomingCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23DC527856F9700810A8B /* IncomingCallViewController.swift */; };
 		CEE23DC82785705700810A8B /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23DC72785705700810A8B /* EntryViewController.swift */; };
 		CEE23DCA2785732500810A8B /* Ringtone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23DC92785732500810A8B /* Ringtone.swift */; };
@@ -46,7 +45,6 @@
 		CEE23DBD2785680B00810A8B /* Communication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Communication.swift; sourceTree = "<group>"; };
 		CEE23DBF2785683800810A8B /* CameraFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFilter.swift; sourceTree = "<group>"; };
 		CEE23DC12785686600810A8B /* CameraSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
-		CEE23DC32785694100810A8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEE23DC527856F9700810A8B /* IncomingCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomingCallViewController.swift; sourceTree = "<group>"; };
 		CEE23DC72785705700810A8B /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		CEE23DC92785732500810A8B /* Ringtone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ringtone.swift; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 				CEFC2E702639A6E00023CD5A /* Common */,
 				CEFC2E612639A6380023CD5A /* Main.storyboard */,
 				CEFC2E642639A63A0023CD5A /* Assets.xcassets */,
-				CEE23DC32785694100810A8B /* GoogleService-Info.plist */,
 				CEFC2E662639A63A0023CD5A /* LaunchScreen.storyboard */,
 			);
 			path = Messenger;
@@ -262,7 +259,6 @@
 				CEFC2E682639A63A0023CD5A /* LaunchScreen.storyboard in Resources */,
 				CEE23DCE278582B400810A8B /* sample.mp4 in Resources */,
 				CEFC2E652639A63A0023CD5A /* Assets.xcassets in Resources */,
-				CEE23DC42785694100810A8B /* GoogleService-Info.plist in Resources */,
 				CEFC2E632639A6380023CD5A /* Main.storyboard in Resources */,
 				CEE23DCC2785734100810A8B /* Captian.mp3 in Resources */,
 			);

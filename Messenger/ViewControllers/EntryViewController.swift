@@ -18,14 +18,24 @@ class EntryViewController: UIViewController {
     
     @IBAction func onJoin(_ sender: Any) {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VideoCallViewController") as! VideoCallViewController
-        vc.username = usernameField.text ?? ""
+        let username = usernameField.text ?? ""
+        guard username != "" else {
+            return
+        }
+        usernameField.resignFirstResponder()
+        vc.username = username
         vc.type = .Join
         self.navigationController?.present(vc, animated: true, completion: nil)
     }
     
     @IBAction func onCreate(_ sender: Any) {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VideoCallViewController") as! VideoCallViewController
-        vc.username = usernameField.text ?? ""
+        let username = usernameField.text ?? ""
+        guard username != "" else {
+            return
+        }
+        usernameField.resignFirstResponder()
+        vc.username = username
         vc.type = .Create
         self.navigationController?.present(vc, animated: true, completion: nil)
     }
