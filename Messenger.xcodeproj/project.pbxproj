@@ -22,6 +22,7 @@
 		CEE23DCA2785732500810A8B /* Ringtone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE23DC92785732500810A8B /* Ringtone.swift */; };
 		CEE23DCC2785734100810A8B /* Captian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE23DCB2785734000810A8B /* Captian.mp3 */; };
 		CEE23DCE278582B400810A8B /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CEE23DCD2785826000810A8B /* sample.mp4 */; };
+		CEE23DD227859CBF00810A8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE23DD127859CBF00810A8B /* GoogleService-Info.plist */; };
 		CEFC2E5C2639A6380023CD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC2E5B2639A6380023CD5A /* AppDelegate.swift */; };
 		CEFC2E5E2639A6380023CD5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFC2E5D2639A6380023CD5A /* SceneDelegate.swift */; };
 		CEFC2E632639A6380023CD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFC2E612639A6380023CD5A /* Main.storyboard */; };
@@ -50,6 +51,7 @@
 		CEE23DC92785732500810A8B /* Ringtone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ringtone.swift; sourceTree = "<group>"; };
 		CEE23DCB2785734000810A8B /* Captian.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Captian.mp3; sourceTree = "<group>"; };
 		CEE23DCD2785826000810A8B /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
+		CEE23DD127859CBF00810A8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEFC2E582639A6380023CD5A /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFC2E5B2639A6380023CD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFC2E5D2639A6380023CD5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				CEFC2E702639A6E00023CD5A /* Common */,
 				CEFC2E612639A6380023CD5A /* Main.storyboard */,
 				CEFC2E642639A63A0023CD5A /* Assets.xcassets */,
+				CEE23DD127859CBF00810A8B /* GoogleService-Info.plist */,
 				CEFC2E662639A63A0023CD5A /* LaunchScreen.storyboard */,
 			);
 			path = Messenger;
@@ -261,6 +264,7 @@
 				CEFC2E652639A63A0023CD5A /* Assets.xcassets in Resources */,
 				CEFC2E632639A6380023CD5A /* Main.storyboard in Resources */,
 				CEE23DCC2785734100810A8B /* Captian.mp3 in Resources */,
+				CEE23DD227859CBF00810A8B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
