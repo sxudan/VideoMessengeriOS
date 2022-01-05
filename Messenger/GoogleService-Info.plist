@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>468470009956-0vt020rkvl8ltc8ol6b6gvndhgo9g9ho.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.468470009956-0vt020rkvl8ltc8ol6b6gvndhgo9g9ho</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCc0IHq-CafizbUH1niaQ2URwBpdaGPOlY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>468470009956</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zyrasoft.VideoMessenger</string>
+	<key>PROJECT_ID</key>
+	<string>meet-35fa4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meet-35fa4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:468470009956:ios:5f3a2067fd8c58ab754f71</string>
+	<key>DATABASE_URL</key>
+	<string>https://meet-35fa4-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
