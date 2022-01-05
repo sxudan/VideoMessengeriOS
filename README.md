@@ -10,6 +10,10 @@ This is a  WebRTC project in iOS done in swift.
 3. Add FirebaseApp.configure() in AppDelegate.swift in didFinishLaunchingWithOptions
 4. Run the project
 
+## How to use
+1. From one user, Enter your name and click create button
+2. From another user, Enter you name and click join button
+
 ## Screenshots
 
 <img width="300px" src="https://gcdn.pbrd.co/images/Uqd9UkTr1ZDE.png?o=1"/>
